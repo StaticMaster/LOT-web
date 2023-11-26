@@ -1,12 +1,13 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import tilogo from '../images/ti-pfp.png';
 
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          Navbar
+        <a class="navbar-brand" href="/">
+         <img src={tilogo} alt="logo" width="70" height="75"></img>
         </a>
         <button
           class="navbar-toggler"
