@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: #FFB6AD;
+}
+
+.navbar .navbar-expand-lg .bg-body-tertiary{
+background-color: #FFB6AD;
+opacity: 1;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-link.active{
+    color: white;
+}
+
+
+.nav-link.active:hover{
+    color: white;
+   text-decoration: underline;
+   text-decoration-color: #FFB6AD;
+}

@@ -1,0 +1,14 @@
+.homepage-section{
+    background-color: black;
+    height: 60vh;
+}
+
+.text-start{
+    color: white;
+}
+
+.img-fluid{
+    display: block;
+    width: 500px;
+    height: 500px;
+}

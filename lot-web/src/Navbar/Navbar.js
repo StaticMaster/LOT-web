@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import "./Navbar.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import tilogo from '../images/ti-pfp.png';
 
