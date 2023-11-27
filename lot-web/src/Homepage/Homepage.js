@@ -6,7 +6,7 @@ function Homepage() {
   return (
     <div className="homepage-section">
       <img src={timain} className="img-fluid" alt="ti-pfp"></img>
-      <p className="text-start">I am Legend of Ti</p>
+      <p className="text-end">I am Legend of Ti</p>
     </div>
   );
 }
