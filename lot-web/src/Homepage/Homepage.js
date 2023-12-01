@@ -1,18 +1,21 @@
 import React from "react";
 import "./Homepage.css";
+import ScrollIndicator from "../Scroll-Indicator";
 import Typewriter from "typewriter-effect";
 import tibg from "../images/ti-background-vid.mp4";
-import timain from "../images/ti-background.jpg";
+import timain from "../images/new-pfp.jpg";
 import ghost from "../images/ghost-logo.png";
 import gameradvantage from "../images/gamer-advantage.png";
 import altcustoms from "../images/altcustoms.png";
+import Socials from "../Socials/Socials";
 
 function Homepage() {
   return (
     <div>
+      <ScrollIndicator />
       <div className="bg-wrapper">
         <video autoPlay loop muted className="bg-video">
-        <h1>Random Text</h1>
+          <h1>Random Text</h1>
           <source src={tibg} type="video/mp4"></source>
         </video>
         <div className="homepage-section">
@@ -65,6 +68,7 @@ function Homepage() {
               </div>
             </div>
           </div>
+          <Socials />
         </div>
       </div>
     </div>

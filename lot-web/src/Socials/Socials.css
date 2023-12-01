@@ -1,0 +1,9 @@
+.socials-section{
+    background-color:#ffb6ad ;
+    height: 110vh;
+}
+
+.feed-section{
+    display: flex;
+   padding-left: 150px;
+}
