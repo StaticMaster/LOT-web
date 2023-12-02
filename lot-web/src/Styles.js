@@ -2,7 +2,7 @@ import styled from "styled-components";
  
 export const Container = styled.div`
     background-color: black;
-    height: 10px;
+    height: 5px;
     position: sticky;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
  
 export const ProgressBar = styled.div`
-    height: 10px;
+    height: 5px;
     background-color: #ffb6ad;
     border-radius: 10px;
 `;
