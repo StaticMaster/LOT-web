@@ -14,8 +14,7 @@ function Homepage() {
     <div>
       <ScrollIndicator />
       <div className="bg-wrapper">
-        <video autoPlay loop muted className="bg-video">
-          <h1>Random Text</h1>
+        <video autoPlay loop muted className="bg-video  ">
           <source src={tibg} type="video/mp4"></source>
         </video>
         <div className="homepage-section">
@@ -32,7 +31,7 @@ function Homepage() {
             }}
           />
           <div className="sponsor-section">
-            <p className="text-center">Sponsors</p>
+            {/* <p className="text-center">Sponsors</p> */}
             <div className="container text-center">
               <div className="row align-items-center">
                 <div className="col">
