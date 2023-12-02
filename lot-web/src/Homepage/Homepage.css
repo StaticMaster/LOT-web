@@ -10,7 +10,7 @@
   top: 0.5;
   left: 0;
   width: 100%;
-  height: 72.2%;
+  height: 109.5%;
   object-fit: cover;
   z-index: -0.3;
   opacity: 0.097;
@@ -52,6 +52,7 @@
 }
 
 .sponsor-section {
+  background-color: black;
   padding-top: 185px;
 }
 
