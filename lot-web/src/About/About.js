@@ -5,7 +5,7 @@ import "./About.css";
 function About() {
   return (
     <div className="about">
-      <p class="text-center">About Me</p>
+      <p class="text-center" id="About">About Me</p>
       <div className="content-container">
         <img src={timain} className="float-start ti-pic" alt="ti-mainpic"></img>
         <p className="text-end about-paragraph">

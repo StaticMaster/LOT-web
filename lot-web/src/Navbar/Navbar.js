@@ -30,12 +30,12 @@ function Navbar() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#Social">
                 Socials
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#About">
                 About Me
               </a>
             </li>

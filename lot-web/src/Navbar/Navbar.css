@@ -6,3 +6,9 @@
 background-color: #FFB6AD;
 opacity: 1;
 }
+
+.navbar-collapse{
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}

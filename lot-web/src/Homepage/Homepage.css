@@ -30,6 +30,9 @@
   padding-right: 200px;
   padding-top: 200px;
 }
+.img-container {
+  max-width: 600px; /* Adjust maximum width based on your design */
+}
 
 .img-fluid {
   display: flex;
@@ -63,10 +66,18 @@
   margin-right: 10px;
 }
 
-@media only screen and (min-width: 768px) {
+
+@media only screen and (max-width: 767px) {
+  .img-container {
+    max-width: none; /* Remove the maximum width for mobile screens */
+  }
+
   .intro-text {
-    flex-direction: column;
-    text-align: center;
+    padding-top: 10px; /* Adjust spacing for smaller screens */
+  }
+
+  .typewriter-text {
+    padding-top: 10px; /* Adjust spacing for smaller screens */
   }
 }
 

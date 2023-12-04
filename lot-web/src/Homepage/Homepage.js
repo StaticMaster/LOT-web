@@ -19,7 +19,9 @@ function Homepage() {
           <source src={tibg} type="video/mp4"></source>
         </video>
         <div className="homepage-section">
-          <img src={timain} className="img-fluid" alt="ti-pfp" />
+          <div className="img-container">
+            <img src={timain} className="img-fluid" alt="ti-pfp" />
+          </div>
           <div className="text-end intro-text">
             <p>I am Legend of Ti</p>
             <Typewriter
@@ -33,7 +35,6 @@ function Homepage() {
             />
           </div>
           <div className="sponsor-section">
-            {/* <p className="text-center">Sponsors</p> */}
             <div className="container text-center">
               <div className="row align-items-center">
                 <div className="col">
