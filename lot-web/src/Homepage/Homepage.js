@@ -8,6 +8,7 @@ import ghost from "../images/ghost-logo.png";
 import gameradvantage from "../images/gamer-advantage.png";
 import altcustoms from "../images/altcustoms.png";
 import Socials from "../Socials/Socials";
+import About from "../About/About";
 
 function Homepage() {
   return (
@@ -19,17 +20,18 @@ function Homepage() {
         </video>
         <div className="homepage-section">
           <img src={timain} className="img-fluid" alt="ti-pfp" />
-          <p className="text-end">I am Legend of Ti</p>
-          <Typewriter
-            className="text-end"
-            options={{
-              strings: ["Creator", "Gamer", "Bodybuilder"],
-              autoStart: true,
-              loop: true,
-              deleteSpeed: 50,
-              delay: 500,
-            }}
-          />
+          <div className="text-end intro-text">
+            <p>I am Legend of Ti</p>
+            <Typewriter
+              options={{
+                strings: ["Creator", "Gamer", "Bodybuilder"],
+                autoStart: true,
+                loop: true,
+                deleteSpeed: 50,
+                delay: 500,
+              }}
+            />
+          </div>
           <div className="sponsor-section">
             {/* <p className="text-center">Sponsors</p> */}
             <div className="container text-center">
@@ -68,6 +70,7 @@ function Homepage() {
             </div>
           </div>
           <Socials />
+          <About />
         </div>
       </div>
     </div>

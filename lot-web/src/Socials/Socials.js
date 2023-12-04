@@ -24,13 +24,13 @@ function Socials() {
               height={655}
             />
           </div>
-          <div style={{}}>
+          {/* <div style={{}}>
             <TwitterEmbed
               url="https://twitter.com/LegendofTi/status/1711512775053480027"
               width={255}
               height={700}
             />
-          </div>
+          </div> */}
           {/* <div style={{}}>
             <YouTubeEmbed
               url="https://www.youtube.com/watch?v=Lxnj0jdcvng&t=1146s&ab_channel=LegendofTi&autoplay=1"
