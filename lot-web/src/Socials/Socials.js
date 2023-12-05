@@ -14,27 +14,27 @@ function Socials() {
           <div className="ig-embed">
             <InstagramEmbed
               url="https://www.instagram.com/legendof_ti/?hl=en"
-              width={328}
+              width={394}
             />
           </div>
           <div className="yt-embed">
             <YouTubeEmbed
               url="https://www.youtube.com/watch?v=Lxnj0jdcvng&t=1146s&ab_channel=LegendofTi&autoplay=1"
-              width={325}
+              width={390}
               height={220}
             />
           </div>
-          <div style={{}}>
+          <div className="tiktok-embed">
             <TikTokEmbed
               url="https://www.tiktok.com/@legendof_ti/video/7124812252590640430"
-              width={325}
+              width={375}
               height={655}
             />
           </div>
           <div className="twitter-embed">
             <TwitterEmbed
               url="https://x.com/legendofti/status/1731768205230964791?s=51&t=ErdMRaY545xTydjCHZ28mw"
-              width={355}
+              width={393}
               height={700}
             />
           </div>

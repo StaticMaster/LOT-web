@@ -60,6 +60,9 @@
   max-width: 100%;
 }
 
+.tiktok-embed{
+  background-color: #ffb6ad;
+}
 .yt-embed {
   max-width: 100%; /* Make sure the YouTube embed stays within its container */
   height: auto; /* Maintain the aspect ratio of the video */
