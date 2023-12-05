@@ -1,4 +1,4 @@
-.socials-section{
+/* .socials-section{
     background-color:#ffb6ad ;
     height: auto;
     width: 100%;
@@ -16,12 +16,64 @@
   
   @media only screen and (max-width: 768px) {
     .socials {
-      flex-direction: column; /* Stack items vertically on small screens */
-      align-items: center; /* Center items in the column */
+      flex-direction: column; 
+      align-items: center; 
     }
   
     .socials > div {
-      width: 100%; /* Take up full width on small screens */
-      margin-bottom: 15px; /* Add some space between stacked items */
+      width: 100%; 
+      margin-bottom: 15px; 
     }
+
+
+    .twitter-embed{
+      width: auto;
+      height: max-content;
+    }
+  } */
+
+  /* CSS */
+.socials-section {
+  background-color: #ffb6ad;
+  height: auto;
+  width: 100%;
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+.socials {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on small screens */
+  align-items: center; /* Center items in the column */
+  grid-gap: 20px; /* Adjusted gap for better spacing */
+}
+
+.socials > div {
+  width: 100%; /* Take up full width on small screens */
+}
+
+/* Adjustments for specific embeds */
+.twitter-embed {
+  max-width: 100%; /* Make sure the Twitter embed stays within its container */
+}
+
+.ig-embed{
+  max-width: 100%;
+}
+
+.yt-embed {
+  max-width: 100%; /* Make sure the YouTube embed stays within its container */
+  height: auto; /* Maintain the aspect ratio of the video */
+}
+
+/* Other styles as needed */
+
+@media only screen and (min-width: 768px) {
+  .socials {
+    flex-direction: row; /* Switch back to horizontal layout on larger screens */
   }
+
+  .socials > div {
+    width: auto; /* Allow items to take their natural width */
+    margin-bottom: 0; /* Remove bottom margin for horizontal layout */
+  }
+}

@@ -79,10 +79,8 @@
   .typewriter-text {
     padding-top: 10px; /* Adjust spacing for smaller screens */
   }
+.bg-video{
+  max-width: 100%;
+  height: auto;
 }
-
-/* @font-face {
-  font-family: "Open-Sans";
-  src: local("O-Sans"),
-    url(../fonts/OpenSans-VariableFont_wdth\wght.woff) format("woff");
-} */
+}

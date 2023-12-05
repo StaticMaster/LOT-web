@@ -1,4 +1,9 @@
 .App {
-  text-align: center;
+  font-family: "Open-Sans";
 }
 
+@font-face {
+  font-family: "Open-Sans";
+  src: local("O-Sans"),
+    url(../../lot-web/src/fonts/OpenSans-VariableFont_wdth\,wght.woff) format("woff");
+}

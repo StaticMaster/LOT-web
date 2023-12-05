@@ -1,6 +1,5 @@
 import React from "react";
 import "./Homepage.css";
-import ScrollIndicator from "../Scroll-Indicator";
 import Typewriter from "typewriter-effect";
 import tibg from "../images/ti-background-vid.mp4";
 import timain from "../images/new-pfp.jpg";
@@ -13,7 +12,6 @@ import About from "../About/About";
 function Homepage() {
   return (
     <div>
-      <ScrollIndicator />
       <div className="bg-wrapper">
         <video autoPlay loop muted className="bg-video  ">
           <source src={tibg} type="video/mp4"></source>

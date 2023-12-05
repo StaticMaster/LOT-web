@@ -11,17 +11,17 @@ function Socials() {
       <div className="social-title">
         <p className="text-center" id="Social">The Social Feed</p>
         <div className="d-flex flex-column grid gap-3 align-items-center socials">
-          <div style={{}}>
+          <div className="ig-embed">
             <InstagramEmbed
               url="https://www.instagram.com/legendof_ti/?hl=en"
-              width={428}
+              width={328}
             />
           </div>
-          <div style={{}}>
+          <div className="yt-embed">
             <YouTubeEmbed
               url="https://www.youtube.com/watch?v=Lxnj0jdcvng&t=1146s&ab_channel=LegendofTi&autoplay=1"
-              width={625}
-              height={420}
+              width={325}
+              height={220}
             />
           </div>
           <div style={{}}>
@@ -31,10 +31,10 @@ function Socials() {
               height={655}
             />
           </div>
-          <div style={{}}>
+          <div className="twitter-embed">
             <TwitterEmbed
-              url="https://twitter.com/LegendofTi/status/1711512775053480027"
-              width={455}
+              url="https://x.com/legendofti/status/1731768205230964791?s=51&t=ErdMRaY545xTydjCHZ28mw"
+              width={355}
               height={700}
             />
           </div>
